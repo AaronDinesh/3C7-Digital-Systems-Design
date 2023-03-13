@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab C/bit6_CLA_Adder/bit6_CLA_Adder.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab C/bit6_CLA_Adder/bit6_CLA_Adder.srcs/sources_1/new/6bit_ripple_adder.v,1676677262,verilog,,C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab C/full_adder.v,,b6_ripple,,,,,,,,
+C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab C/bit6_CLA_Adder/bit6_CLA_Adder.srcs/sources_1/new/RippleAdder_tb.v,1676974626,verilog,,,,RippleAdder_tb,,,,,,,,
+C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab C/full_adder.v,1676410185,verilog,,C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab C/bit6_CLA_Adder/bit6_CLA_Adder.srcs/sources_1/new/RippleAdder_tb.v,,FullAdder,,,,,,,,

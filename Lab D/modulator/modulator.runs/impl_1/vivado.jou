@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb 23 08:32:05 2023
+# Process ID: 21580
+# Current directory: C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab D/modulator/modulator.runs/impl_1
+# Command line: vivado.exe -log modulator_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source modulator_wrapper.tcl -notrace
+# Log file: C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab D/modulator/modulator.runs/impl_1/modulator_wrapper.vdi
+# Journal file: C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab D/modulator/modulator.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source modulator_wrapper.tcl -notrace

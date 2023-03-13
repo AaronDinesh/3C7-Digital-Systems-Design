@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/aaron/Desktop/Lab1/project_1/project_1.gen/sources_1/ip/sine_high/sim/sine_high.vhd,1675196187,vhdl,,,,sine_high,,,,,,,,
+C:/Users/aaron/Desktop/Lab1/project_1/project_1.gen/sources_1/ip/sine_low/sim/sine_low.vhd,1675196308,vhdl,,,,sine_low,,,,,,,,
+C:/Users/aaron/Desktop/Lab1/project_1/project_1.gen/sources_1/ip/sine_mid/sim/sine_mid.vhd,1675196375,vhdl,,,,sine_mid,,,,,,,,
+C:/Users/aaron/Desktop/Lab1/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/aaron/Desktop/Lab1/tutorial code/debounce.vhd,1675158138,vhdl,,,,debounce,,,,,,,,
+C:/Users/aaron/Desktop/Lab1/tutorial code/fsm.vhd,1675158138,vhdl,,,,fsm,,,,,,,,
+C:/Users/aaron/Desktop/Lab1/tutorial code/sinegen.vhd,1675158138,vhdl,,,,sinegen,,,,,,,,
+C:/Users/aaron/Desktop/Lab1/tutorial code/sinegen_demo.vhd,1675158138,vhdl,,,,sinegen_demo,,,,,,,,
+C:/Users/aaron/Desktop/Lab1/tutorial code/testbench.v,1675158138,verilog,,,,testbench,,,,,,,,

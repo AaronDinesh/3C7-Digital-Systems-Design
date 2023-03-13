@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../8bit_GEQ.srcs/sources_1/new/2bit_GTH.v" \
+"../../../../8bit_GEQ.srcs/sources_1/new/bit8_GEQ.v" \
+"../../../../../eq1.v" \
+"../../../../../eq2.v" \
+"../../../../8bit_GEQ.srcs/sources_1/new/bit8_GEQ_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

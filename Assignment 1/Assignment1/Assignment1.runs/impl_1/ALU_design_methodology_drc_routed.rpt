@@ -1,0 +1,166 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Mar 11 17:23:51 2023
+| Host         : DESKTOP-A2QVG51 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file ALU_design_methodology_drc_routed.rpt -pb ALU_design_methodology_drc_routed.pb -rpx ALU_design_methodology_drc_routed.rpx
+| Design       : ALU_design
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 26
++-----------+----------+------------------------------+------------+
+| Rule      | Severity | Description                  | Violations |
++-----------+----------+------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert | 1          |
+| TIMING-20 | Warning  | Non-clocked latch            | 25         |
++-----------+----------+------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell dut/reg2_reg[5]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) dut/reg2_reg[0]/CLR, dut/reg2_reg[1]/CLR, dut/reg2_reg[2]/CLR, dut/reg2_reg[3]/CLR, dut/reg2_reg[4]/CLR, dut/reg2_reg[5]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch dut/le_reg1_reg[0] cannot be properly analyzed as its control pin dut/le_reg1_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch dut/le_reg1_reg[1] cannot be properly analyzed as its control pin dut/le_reg1_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch dut/le_reg1_reg[2] cannot be properly analyzed as its control pin dut/le_reg1_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch dut/le_reg1_reg[3] cannot be properly analyzed as its control pin dut/le_reg1_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch dut/le_reg1_reg[4] cannot be properly analyzed as its control pin dut/le_reg1_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch dut/le_reg1_reg[5] cannot be properly analyzed as its control pin dut/le_reg1_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch dut/le_reg2_reg[0] cannot be properly analyzed as its control pin dut/le_reg2_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch dut/le_reg2_reg[1] cannot be properly analyzed as its control pin dut/le_reg2_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch dut/le_reg2_reg[2] cannot be properly analyzed as its control pin dut/le_reg2_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch dut/le_reg2_reg[3] cannot be properly analyzed as its control pin dut/le_reg2_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch dut/le_reg2_reg[4] cannot be properly analyzed as its control pin dut/le_reg2_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch dut/le_reg2_reg[5] cannot be properly analyzed as its control pin dut/le_reg2_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch dut/reg1_reg[0] cannot be properly analyzed as its control pin dut/reg1_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch dut/reg1_reg[1] cannot be properly analyzed as its control pin dut/reg1_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch dut/reg1_reg[2] cannot be properly analyzed as its control pin dut/reg1_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch dut/reg1_reg[3] cannot be properly analyzed as its control pin dut/reg1_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch dut/reg1_reg[4] cannot be properly analyzed as its control pin dut/reg1_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch dut/reg1_reg[5] cannot be properly analyzed as its control pin dut/reg1_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch dut/reg2_reg[0] cannot be properly analyzed as its control pin dut/reg2_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch dut/reg2_reg[1] cannot be properly analyzed as its control pin dut/reg2_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch dut/reg2_reg[2] cannot be properly analyzed as its control pin dut/reg2_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch dut/reg2_reg[3] cannot be properly analyzed as its control pin dut/reg2_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch dut/reg2_reg[4] cannot be properly analyzed as its control pin dut/reg2_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch dut/reg2_reg[5] cannot be properly analyzed as its control pin dut/reg2_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch dut/sel_reg_reg/L7 (in dut/sel_reg_reg macro) cannot be properly analyzed as its control pin dut/sel_reg_reg/L7/G is not reached by a timing clock
+Related violations: <none>
+
+

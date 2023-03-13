@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+[@0] LEDS_n = xx00
+[@8000] LEDS_n = x000
+[@13000] LEDS_n = 0000
+[@113000] LEDS_n = x000
+[@3518000] LEDS_n = x100
+[@3523000] LEDS_n = x001
+[@3523000] LEDS_n = x001
+[@3538000] LEDS_n = 0001
+[@6008000] LEDS_n = 0101
+[@6013000] LEDS_n = 0010
+[@6013000] LEDS_n = 0010
+$finish called at time : 7005 ns : File "C:/Users/aaron/Desktop/Lab1/tutorial code/testbench.v" Line 63

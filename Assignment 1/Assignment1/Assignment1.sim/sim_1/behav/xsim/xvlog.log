@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/imports/Sources/2bit_GTH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit2_GTH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/imports/Sources/6bit_ripple_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module b6_ripple
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/imports/Sources/bit1_XNOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit1XNOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/new/bit8XNOR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit8XNOR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/imports/Sources/bit8_GEQ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bit8_LE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/imports/Sources/eq1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eq1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/imports/Sources/eq2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eq2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/imports/Sources/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.srcs/sources_1/new/ALU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/Coding/3C7/Assignment 1/Assignment1/Assignment1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

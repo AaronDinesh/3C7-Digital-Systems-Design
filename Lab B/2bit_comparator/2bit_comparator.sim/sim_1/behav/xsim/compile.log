@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab 2/eq1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eq1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab 2/eq2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eq2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aaron/Desktop/College Work/3rd Year/3C7/Lab 2/eq2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eq2_testbench

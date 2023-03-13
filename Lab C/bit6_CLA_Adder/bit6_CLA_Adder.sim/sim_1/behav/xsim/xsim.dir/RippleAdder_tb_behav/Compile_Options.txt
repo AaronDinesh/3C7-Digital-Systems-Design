@@ -1,0 +1,1 @@
+-wto "6777f04bcebc4d67851d56a0af1762ac" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "RippleAdder_tb_behav" "xil_defaultlib.RippleAdder_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

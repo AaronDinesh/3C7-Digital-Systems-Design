@@ -1,0 +1,8 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Vec 1: 00, Vec 2: 00, Output: 1
+Vec 1: 01, Vec 2: 00, Output: 0
+Vec 1: 01, Vec 2: 11, Output: 0
+Vec 1: 10, Vec 2: 10, Output: 1
+Vec 1: 10, Vec 2: 00, Output: 0
+Vec 1: 11, Vec 2: 11, Output: 1
