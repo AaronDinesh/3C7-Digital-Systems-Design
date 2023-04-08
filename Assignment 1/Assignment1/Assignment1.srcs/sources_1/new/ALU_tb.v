@@ -48,21 +48,21 @@ module ALU_tb();
         A = 6'b101010;
         B = 6'b101110;
         fxn = 3'b011;
-        expected = 6'bb010010;
+        expected = 6'b010010;
         #50;
         
         //Return A<B. For +ve A and +ve B with A<B. Output should be 6'b000001
         A = 6'b000010;
         B = 6'b001010;
         fxn = 3'b100;
-        expected = 6'bb000001;
+        expected = 6'b000001;
         #50;
                 
         //Return A<B. For +ve A and +ve B with A>B. Output should be 6'b000000
         A = 6'b000100;
         B = 6'b000010;
         fxn = 3'b100;
-        expected  = 6'bb000000;
+        expected  = 6'b000000;
         #50;
         
         //Return A<B. For -ve A and +ve B with A<B. Output should be 6'b000001
@@ -70,7 +70,7 @@ module ALU_tb();
         B = 6'b001001;
         fxn = 3'b100;
         expected = 6'b000001;
-        
+        #50;
         //Should return A!^B. Output should be 6'b111111
         A = 6'b001010;
         B = 6'b001010;
@@ -105,8 +105,5 @@ module ALU_tb();
         fxn = 3'b111;
         expected = 6'b001111;
         #50; 
-        
-        
     end
-
 endmodule

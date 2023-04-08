@@ -2,6 +2,7 @@
 
 module bit8XNOR(input [7:0] A, input [7:0] B, output reg [7:0] res);
     wire w0,w1,w2,w3,w4,w5,w6,w7;
+    //Instantiate 1 bit XNOR modules
     bit1XNOR b0(.i0(A[0]), .i1(B[0]), .op(w0));
     bit1XNOR b1(.i0(A[1]), .i1(B[1]), .op(w1));
     bit1XNOR b2(.i0(A[2]), .i1(B[2]), .op(w2));
@@ -11,6 +12,7 @@ module bit8XNOR(input [7:0] A, input [7:0] B, output reg [7:0] res);
     bit1XNOR b6(.i0(A[6]), .i1(B[6]), .op(w6));
     bit1XNOR b7(.i0(A[7]), .i1(B[7]), .op(w7));
     
+    //Assign the outputs of the 1 bit modules to the output of this module
     always @* begin
         res[0] <= w0;
         res[1] <= w1;

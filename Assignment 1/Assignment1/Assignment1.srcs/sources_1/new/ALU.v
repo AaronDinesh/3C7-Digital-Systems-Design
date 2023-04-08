@@ -2,6 +2,7 @@
 
 
 module ALU(input [5:0] A, input [5:0] B, input [2:0] fxn, output reg [5:0] X);
+    //Define some registers
     reg [5:0] reg1, reg2;
     wire [5:0] sum_reg;
     reg [7:0] le_reg1, le_reg2;
@@ -9,10 +10,14 @@ module ALU(input [5:0] A, input [5:0] B, input [2:0] fxn, output reg [5:0] X);
     reg sel_reg; 
     wire le_out;
     wire ovflow, cout;
+    
+    //Call the less than, Ripple addder and XNOR modules
     bit8_LE le(.A(le_reg1), .B(le_reg2), .res(le_out));
     b6_ripple rca(.x(reg1), .y(reg2), .sel(sel_reg),.overflow(ovflow), .c_out(cout), .sum(sum_reg));
     bit8XNOR XNOR(.A(le_reg1), .B(le_reg2), .res(XNOR_out));
     
+    
+    //Big if Case to switch the inputs into the registers for the modules above based on what fxn is.
     always @* begin
         if(fxn == 3'b000)begin
         //Should return A

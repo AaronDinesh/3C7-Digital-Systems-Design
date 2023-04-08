@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/aaron/Desktop/Coding/3C7/Lab F/PartD/PartD.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/aaron/Desktop/Coding/3C7/Lab F/PartD/PartD.srcs/sources_1/imports/Lab F/PartC/PartC.srcs/sources_1/new/LFSR.v,1680027789,verilog,,,,LFSR,,,,,,,,
+C:/Users/aaron/Desktop/Coding/3C7/Lab F/PartD/PartD.srcs/sources_1/imports/Lab F/PartC/PartC.srcs/sources_1/new/counter.v,1679781085,verilog,,C:/Users/aaron/Desktop/Coding/3C7/Lab F/PartD/PartD.srcs/sources_1/imports/Lab F/PartC/PartC.srcs/sources_1/new/LFSR.v,,counter,,,,,,,,
+C:/Users/aaron/Desktop/Coding/3C7/Lab F/PartD/PartD.srcs/sources_1/new/clock.v,1680027131,verilog,,C:/Users/aaron/Desktop/Coding/3C7/Lab F/PartD/PartD.srcs/sources_1/imports/Lab F/PartC/PartC.srcs/sources_1/new/counter.v,,clock,,,,,,,,

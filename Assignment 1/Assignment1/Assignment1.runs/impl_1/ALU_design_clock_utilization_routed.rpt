@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Sat Mar 11 17:23:51 2023
+| Date         : Sat Mar 18 18:58:53 2023
 | Host         : DESKTOP-A2QVG51 running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file ALU_design_clock_utilization_routed.rpt
 | Design       : ALU_design
