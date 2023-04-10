@@ -23,6 +23,9 @@ module FSM(input [18:0] num_to_check, input clk, output reg code, done);
         end else begin
             num = num_to_check[i];
             i = i - 1;
+            if(i == -1 && count_0 != 5) begin
+                next_state = end_state;
+            end
             current_state = next_state;
             inputs_seen = inputs_seen + 1;
         end
@@ -39,10 +42,10 @@ module FSM(input [18:0] num_to_check, input clk, output reg code, done);
                 end
                 
             state_1:
-                if(count_1 == 6) begin
+                if(count_1 == 6 && num == 0) begin //should also check if num == 0 before moving on
                     next_state = state_0;
                     count_0 = count_0 + 1;
-                end else if(num) begin
+                end else if(num && count_1 < 6) begin //should check count < 6
                     next_state = state_1;
                     count_1 = count_1 + 1;
                 end else begin
@@ -76,7 +79,11 @@ module FSM(input [18:0] num_to_check, input clk, output reg code, done);
     always @(current_state) begin
         case(current_state)
             end_state: begin
-                code = 1;
+                if(count_0 == 6 && count_1 == 6) begin
+                    code = 1;
+                end else begin
+                    code = 0;
+                end
                 done = 1;
             end
             

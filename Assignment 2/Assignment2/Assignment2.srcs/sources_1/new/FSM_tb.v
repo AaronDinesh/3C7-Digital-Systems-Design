@@ -16,8 +16,10 @@ module FSM_tb();
      end
      
     always @(posedge done) begin
-        num_to_test  = num_to_test >> 1;
-        #10;
+        if(done && clk) begin
+            #1;
+            num_to_test  = num_to_test >> 1;
+        end
     end
 
     
