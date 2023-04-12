@@ -29,7 +29,7 @@ module FSM(input [18:0] num_to_check, input clk, output reg code, done);
             i = i - 1;
             
             // If we have run out of numbers to check then set the next state to be end_state
-            if(i == -1 && count_0 != 5) begin
+            if((i == -1 && count_0 != 5)  || (i == -1 && count_0 <= 5 && num)) begin
                 next_state = end_state;
             end
             

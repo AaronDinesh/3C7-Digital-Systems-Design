@@ -16,15 +16,20 @@ module FSM_tb();
         end
      end
     
-    // Get the next input whenever the FSM says we are done 
-    always @(posedge done) begin
-        // On the next clock cycle get the next input
-        if(clk) begin
-            // Delay to show the done and code signal on the scope
-            #1;
-            // Right shift to get the next input
-            num_to_test  = num_to_test >> 1;
-        end
+//    // Get the next input whenever the FSM says we are done 
+//    always @(posedge done) begin
+//        // On the next clock cycle get the next input
+//        if(clk) begin
+//            // Delay to show the done and code signal on the scope
+//            #1;
+//            // Right shift to get the next input
+//            num_to_test  = num_to_test >> 1;
+//        end
+//    end
+
+
+    initial begin
+        num_to_test = 19'b1100100000001111101;
     end
 
     

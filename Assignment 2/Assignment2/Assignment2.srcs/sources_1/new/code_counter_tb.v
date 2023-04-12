@@ -2,8 +2,8 @@
 
 
 module code_counter_tb();
-    reg clk;
-    wire [18:0] code_coutner;
+    reg clk, reset;
+    wire [18:0] count_of_code, out;
     // Code to generate a clock
     initial begin
         clk = 1'b0;
@@ -12,7 +12,12 @@ module code_counter_tb();
         end
      end
      
-     code_counter code_count(.xtal_clk(clk), .code_counter(code_coutner));
      
+     code_counter dut(.xtal_clk(clk),.reset(reset), .count(count_of_code), .out_lfsr(out)); 
      
+     initial begin
+        reset = 1;
+        #5;
+        reset = 0; 
+     end
 endmodule
